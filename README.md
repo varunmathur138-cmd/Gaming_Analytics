@@ -1,85 +1,183 @@
-# Gaming_Analytics
-# 🎮 Gaming Analytics: End-to-End Data Analysis Project
+# 🎮 Game Analytics Dashboard
 
- 📌 Overview
+## 📌 Project Overview
 
-This project presents a comprehensive end-to-end data analysis of a gaming dataset, aimed at uncovering actionable insights into player behavior, engagement patterns, and revenue dynamics.
+The Game Analytics Dashboard is an interactive Power BI solution designed to analyze gaming platform performance through revenue tracking, user engagement, retention analysis, and player behavior insights.
 
-It demonstrates the complete analytics workflow — from raw data processing to interactive dashboard storytelling — with a strong focus on real-world business impact.
+This dashboard helps stakeholders identify growth opportunities, understand user retention patterns, monitor revenue trends, and optimize player monetization strategies.
 
-🎯 Objectives
-* Analyze player behavior and engagement trends
-* Identify key factors driving in-game purchases
-* Evaluate performance across player segments and devices
-* Provide data-driven recommendations for growth and retention
+---
 
-🛠️ Tech Stack
+## 🖼 Dashboard Preview
 
-* **Python** – Data cleaning & EDA (Pandas, NumPy)
-* **SQL** – Data querying and transformations
-* **Power BI / Excel** – Dashboarding & visualization
-* **Matplotlib / Seaborn** – Data visualization
+![Game Analytics Dashboard](Dashboard_Screenshot.png)
 
-📂 Dataset Description
-The dataset simulates real-world gaming data with intentional inconsistencies to reflect practical data challenges.
+---
 
-**Key Features:**
+## 🎯 Business Objectives
 
-* Player ID
-* Age & Country
-* Game Level
-* Session Duration
-* In-game Purchase Behavior
-* Purchase Amount
-* Device Type
-* Retention Days
+- Monitor overall platform revenue performance.
+- Track user retention and churn risk.
+- Analyze player spending behavior.
+- Identify top-performing countries.
+- Evaluate monthly revenue growth trends.
+- Discover monetization opportunities through user segmentation.
 
-🔄 Project Workflow
+---
 
-1️⃣ Data Cleaning
-* Handled missing values (age, session duration, purchase amount)
-* Standardized categorical fields (country, device type)
-* Ensured logical consistency (purchase behavior vs amount)
+## 📊 Key Performance Indicators (KPIs)
 
-2️⃣ Exploratory Data Analysis (EDA)
-* Player distribution by country and device
-* Session duration and engagement trends
-* Purchase behavior analysis
+| KPI | Value |
+|------|--------|
+| Total Revenue | $4.71M |
+| Total Users | 10K |
+| Retention Rate | 49.3% |
+| Avg Revenue Per User (ARPU) | $471 |
+| Paying Users % | 50.0% |
 
-3️⃣ Feature Engineering
-* Created age groups for segmentation
-* Derived paying vs non-paying users
-* Calculated engagement metrics
+---
 
-4️⃣ Dashboard Development
-Designed an interactive dashboard with:
-* KPI summary (Players, Revenue, Retention)
-* Engagement analysis
-* Purchase behavior insights
-* Player segmentation
+## 📈 Dashboard Features
 
-5️⃣ Insights & Recommendations
-* Identified high-value player segments
-* Highlighted retention opportunities
-* Suggested monetization strategies
+### 1️⃣ Revenue Analysis
+- Total Revenue KPI
+- Monthly Revenue Trend
+- Top Revenue Generating Countries
 
-📊 Key Insights
-* 🎮 Higher game levels correlate with increased spending
-* 📱 Mobile users (Android/iOS) dominate engagement
-* 💰 A small % of players contribute majority of revenue
-* ⏱️ Longer session duration strongly impacts retention
+### 2️⃣ User Analytics
+- Total Active Users
+- Paying Users Percentage
+- User Segmentation Analysis
 
+### 3️⃣ Retention Analysis
+- Loyal vs Churn Risk Users
+- Retention Rate Monitoring
+- Player Activity Tracking
 
-🚀 Getting Started
+### 4️⃣ Country Performance
+- Revenue Contribution by Country
+- Spending vs Engagement Analysis
 
-1. Clone the repository
-2. Open the dataset in Python / SQL
-3. Run analysis notebooks
-4. Explore the dashboard in Power BI / Excel
+### 5️⃣ Interactive Filters
+- Month
+- Country
+- Device Type
 
-👤 Author
-Kashish Mathur
+---
 
-⭐ Support
+## 🔍 Key Insights
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+### Revenue Insights
+- USA generated the highest revenue at **$820K**.
+- India followed closely with **$780K** revenue.
+- Monthly revenue peaked at **$1.29M** in January.
+
+### User Retention Insights
+- Retention Rate stands at **49.3%**.
+- Approximately **50.7%** users are identified as Churn Risk.
+
+### Monetization Opportunity
+- 56% of players belong to the Low-Value segment.
+- Significant opportunity exists to improve revenue through targeted campaigns and engagement programs.
+
+### Player Activity Insights
+- Player activity dropped in February and recovered strongly in March.
+- Higher engagement scores correlate with increased player spending.
+
+---
+
+## 🛠 Tools & Technologies Used
+
+### Power BI
+- Interactive Dashboard Development
+- Data Modeling
+- Data Visualization
+
+### DAX
+- KPI Measures
+- Calculated Columns
+- Business Metrics
+
+### Power Query
+- Data Cleaning
+- Data Transformation
+- Data Preparation
+
+### Other Tools
+- Excel
+- SQL
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+Game-Analytics-Dashboard/
+│
+├── Dashboard.pbix
+├── Dashboard_Screenshot.png
+├── Dataset.xlsx
+├── README.md
+└── Insights.pdf
+```
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Data Cleaning
+- Data Modeling
+- DAX Calculations
+- KPI Development
+- Dashboard Design
+- Business Intelligence
+- Data Storytelling
+- User Retention Analysis
+- Revenue Analytics
+- Data Visualization
+
+---
+
+## 💡 Business Value
+
+This dashboard enables gaming businesses to:
+
+- Improve user retention strategies.
+- Reduce churn risk.
+- Increase player monetization.
+- Identify top-performing markets.
+- Make data-driven decisions using real-time insights.
+
+---
+
+## 👨‍💻 Author
+
+**Kashish Mathur**
+
+Data Analyst | Power BI Developer
+
+### Connect With Me
+
+- LinkedIn: www.linkedin.com/in/kashish-mathur-da
+- GitHub: https://github.com/varunmathur138-cmd
+
+---
+
+## ⭐ Repository Topics
+
+```text
+powerbi
+data-analysis
+business-intelligence
+gaming-analytics
+dashboard
+dax
+sql
+excel
+data-visualization
+```
+
+---
+
+### If you found this project useful, consider giving it a ⭐ on GitHub.
